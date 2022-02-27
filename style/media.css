@@ -1,0 +1,380 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --body: #151437;
+    }
+
+    body {
+        background-color: var(--body);
+    }
+
+    .iphones:hover {
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+
+    }
+    .logo__img{
+        content: url(../images/Logo__dark.png);
+    }
+    .all__about{
+        border: 1px solid white;
+        background-color: var(--body);
+    }
+    .all__about:hover{
+        background-color: var(--body);
+        border: 1px solid white;
+    }
+    .nav__bar{
+        background-color: #0c0c0c;
+    }
+    .subtitle{
+        color: white;
+    }
+    .pl5__logo{
+        content: url(../images/pl5__logo__dark.png);
+    }
+    .pl5__title{
+        color: white;
+    }
+    .iphones__title,
+    .iphones__text{
+        color: white;
+    }
+    .list__link{
+        color: white;
+    }
+    .list__link:hover{
+        color: white;
+    }
+   .input{
+    border: 1px solid white !important;
+    background-color: var(--body);
+   }
+   .title{
+       color: white;
+   }
+   .footer{
+    background: #0C0C0C;
+   }
+}
+
+@media(max-width:1399px) {
+    .nav__info a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1200px) {
+    .shop {
+        margin-top: 110px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:1199px) {
+    .grid__info {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        max-width: 630px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid__info {
+        gap: 23px;
+    }
+}
+
+@media(max-width:1000px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .shop {
+        height: 40px;
+        width: 180px;
+
+    }
+}
+
+@media(max-width:991px) {
+    .shop {
+        margin-top: 60px;
+    }
+}
+
+@media(max-width:950px) {
+    .button {
+        font-size: 12px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .title {
+        margin-top: 50px;
+    }
+
+    .carousel__info {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    .carousel__info.active {
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .watch__now {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box__4::after,
+    .box__3::after,
+    .box__2::after,
+    .box__1::after {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .box__1__name,
+    .box__1__cost {
+        font-size: 20px;
+    }
+
+    .grid__info {
+        gap: 15px;
+    }
+
+    .learn__more {
+        width: 170px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:576px) {
+
+    .button,
+    .input {
+        height: 40px;
+    }
+
+    .title {
+        font-size: 37px;
+        max-width: 450px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .shop {
+        margin-top: 40px;
+
+    }
+
+}
+
+@media(max-width:575px) {
+    .nav__info a {
+        font-size: 14px;
+    }
+
+
+
+    .title {
+        font-size: 40px;
+    }
+
+    .box__1,
+    .box__2 {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .grid__info {
+        max-width: 300px;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .box__1__name,
+    .box__1__cost {
+        font-size: 16px;
+    }
+
+    .footer__img {
+        text-align: center;
+    }
+
+    .box__4::after,
+    .box__3::after,
+    .box__2::after,
+    .box__1::after {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:575px) {
+    .pl5__logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .watch__now {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pl5__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:400px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .iphones__title {
+        font-size: 14px;
+    }
+
+    .iphones__text {
+        font-size: 12px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .shop {
+        height: 35px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .learn__more {
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        letter-spacing: 0;
+    }
+}
+
+@media(max-width:360px) {
+    .form-control {
+        font-size: 12px;
+    }
+
+    .form__footer {
+        flex-direction: column;
+    }
+
+   
+
+    .logo__img {
+        width: 170px;
+
+    }
+
+    .form__footer input {
+        width: 190px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer__list {
+        margin-top: 30px;
+    }
+    .footer__link a{
+        font-size: 14px;
+    }
+    .desc__title{
+        font-size: 14px;
+    }
+    
+
+    .form__footer button {
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 12px;
+    }
+    .all__icon{
+        font-size: 35px;
+    }
+    .footer__img img{
+width: 170px;
+    }
+
+    .nav__info a {
+        font-size: 12px;
+    }
+
+    .carousel__info {
+        width: 6px !important;
+        height: 6px !important;
+    }
+
+    .carousel__info.active {
+        width: 8px !important;
+        height: 8px !important;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .pl5__logo {
+        width: 250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .pl5__title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .watch__now {
+        width: 160px;
+        height: 30px;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        margin-left: 0;
+
+    }
+}
+
+@media(max-width:300px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .shop {
+        height: 30px;
+        width: 150px;
+        font-size: 12px;
+    }
+
+}
